@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaathScene Ahmedabad — Social Companionship for Garba, Cafés & Events (18+)</title>
+  <meta name="description" content="Ahmedabad's curated, non-sexual social companionship service for adults 18+. Find a vetted companion for Navratri Garba, café outings, cultural events, and city exploration.">
+  <meta property="og:title" content="SaathScene Ahmedabad — Your Next Social Scene Starts Here">
+  <meta property="og:description" content="A vetted plus-one for your social plans. Navratri Garba, cafés, and public outings with clear boundaries and zero awkwardness.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/brand/app_icon_1024px.png">
+
+  <!-- Favicon derived from official SaathScene Brand Mark -->
+  <link rel="icon" type="image/svg+xml" href="/brand/symbol_deep_teal.svg">
+  <link rel="apple-touch-icon" href="/brand/app_icon_1024px.png">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+
+  <!-- Sticky Operational Notice Banner -->
+  <aside class="notice-bar" aria-label="Announcement">
+    <span>Ahmedabad Launch Pilot</span>
+    Curated social companionship for adults 18+ &bull; Strictly non-sexual &bull; Public venues only
+  </aside>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#home" class="brand-logo-link" aria-label="SaathScene Home">
+        <img src="/brand/logo_horizontal_deep_teal.svg" alt="SaathScene Logo" class="brand-logo-img" onerror="this.onerror=null; this.src='/brand/logo_horizontal_deep_teal.png';">
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <a href="#garba" class="nav-link">Garba Season</a>
+        <a href="#outings" class="nav-link">Cafés & Outings</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#safety" class="nav-link">Safety & Trust</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+      </nav>
+
+      <!-- Desktop CTAs -->
+      <div class="header-actions">
+        <a href="#booking-form" class="btn btn-primary btn-sm">Find a Companion</a>
+        <a href="#companion-form" class="btn btn-outline btn-sm">Join as Companion</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Open Menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <nav class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation">
+    <a href="#garba">Garba Season</a>
+    <a href="#outings">Cafés & Outings</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#safety">Safety & Trust</a>
+    <a href="#faq">Frequently Asked Questions</a>
+    <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-top: 1rem;">
+      <a href="#booking-form" class="btn btn-primary">Find a Companion</a>
+      <a href="#companion-form" class="btn btn-outline">Join as Companion (18+)</a>
+      <a href="#" class="btn btn-whatsapp whatsapp-dynamic-link" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="home">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge-tag">
+            <span class="badge-dot"></span> Ahmedabad Exclusive &bull; Adults 18+
+          </div>
+          <h1 class="hero-title">
+            Never miss Ahmedabad’s best moments for <span class="highlight">lack of company.</span>
+          </h1>
+          <p class="hero-subtitle">
+            A vetted plus-one for your public plans. Whether it’s high-energy Navratri Garba nights, quiet Sindhu Bhavan café chats, or weekend food walks—enjoy good company with zero awkwardness and clear boundaries.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#booking-form" class="btn btn-primary">
+              Book Companion Enquiry
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#companion-form" class="btn btn-outline">
+              Apply as Companion
+            </a>
+            <a href="#" class="btn btn-whatsapp whatsapp-dynamic-link" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Us">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.456 5.711 1.457h.004c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Quick Chat
+            </a>
+          </div>
+          <div class="hero-trust-bar">
+            <div class="trust-item">
+              <strong>100% Non-Sexual</strong>
+              <span>Clear boundaries, strictly social plans</span>
+            </div>
+            <div class="trust-item">
+              <strong>Public Venues Only</strong>
+              <span>Meet in cafés, clubs, festivals & food streets</span>
+            </div>
+            <div class="trust-item">
+              <strong>Adults 18+ Vetted</strong>
+              <span>Mandatory age verification upon intake</span>
+            </div>
+            <div class="trust-item">
+              <strong>Pre-Agreed Terms</strong>
+              <span>No surprise fees or ambiguous expectations</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual-card">
+          <img src="/images/PHOTO04_garba_night.png" alt="Navratri Garba Companion Scene" class="hero-main-img" onerror="this.onerror=null; this.src='/brand/app_icon_1024px.png';">
+          <div class="hero-overlay-tag">
+            <h4>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              Garba Season 2026 Companion Matching
+            </h4>
+            <p>Don't sit out Navratri because friends are out of town. Book a verified partner for two-tali, dodhiya, or club spectator vibes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Strict Non-Sexual Boundary Declaration -->
+    <section class="boundary-banner">
+      <div class="container boundary-box">
+        <div class="boundary-shield" aria-hidden="true">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            <path d="m9 12 2 2 4-4"></path>
+          </svg>
+        </div>
+        <div class="boundary-text">
+          <h3>Our Golden Rule: Respectful Social Companionship</h3>
+          <p>
+            SaathScene is <strong>NOT a dating service, matrimonial portal, or escort agency</strong>. We arrange strictly non-sexual social company for public outings. Both parties retain the full right to decline or leave if boundaries are not respected.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Navratri / Garba Matching Section -->
+    <section class="section-garba" id="garba">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-label">Festival Special &bull; Navratri in Amdavad</span>
+          <h2 class="section-title">Dance, cheer, and celebrate without waiting on anyone.</h2>
+          <p class="section-desc">
+            Navratri is Ahmedabad's biggest celebration. Going alone can feel daunting, but missing it hurts worse. SaathScene matches you with an energetic, respectful companion to share passes, circle rotations, and late-night post-Garba refreshments.
+          </p>
+        </div>
+
+        <div class="garba-card-grid">
+          <div class="garba-image-wrapper">
+            <img src="/images/PHOTO02_getting_ready_phone.png" alt="Navratri Preparation Scene">
+          </div>
+          <div class="garba-content">
+            <div class="feature-pill-list">
+              <div class="feature-pill">
+                <div class="pill-icon">01</div>
+                <div class="pill-body">
+                  <h4>Sheri Garba & Club Ground Pass Coordination</h4>
+                  <p>Whether you have VIP passes or want to explore local pol and society garbas, find someone excited to dance or spectate alongside you.</p>
+                </div>
+              </div>
+              <div class="feature-pill">
+                <div class="pill-icon">02</div>
+                <div class="pill-body">
+                  <h4>All Skill Levels Welcome</h4>
+                  <p>From experienced dodhiya and sanedo dancers to enthusiastic beginners who just want to soak in the energy—we match mutual vibes.</p>
+                </div>
+              </div>
+              <div class="feature-pill">
+                <div class="pill-icon">03</div>
+                <div class="pill-body">
+                  <h4>Safe Public Pickup & Departure</h4>
+                  <p>Always meet directly at the ticket gate or public entrance. Clear timing agreements mean you enjoy the evening on your terms.</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <a href="#booking-form" class="btn btn-primary">Find a Garba Companion</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cafés, Heritage & Outings Section -->
+    <section class="section-outings" id="outings">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-label">Beyond the Festival &bull; Year-Round Amdavad</span>
+          <h2 class="section-title">Everyday scenes that are better with good company.</h2>
+          <p class="section-desc">
+            You don't need a special occasion to spend an evening well. Discover new hangout spots, try signature dishes, or walk Ahmedabad’s historic alleys with an attentive companion.
+          </p>
+        </div>
+
+        <div class="outings-grid">
+          <!-- Card 1 -->
+          <article class="scene-card">
+            <div class="scene-card-img-box">
+              <img src="/images/PHOTO01_cafe_friendly_conversation.png" alt="Café Conversation in Bodakdev">
+              <span class="scene-card-tag">Café & Coffee</span>
+            </div>
+            <div class="scene-card-body">
+              <div>
+                <h3>Sindhu Bhavan & Bodakdev Cafés</h3>
+                <p>Have meaningful conversations, discuss books, brainstorm ideas, or simply unwind over specialty pour-overs without checking your phone every two minutes.</p>
+              </div>
+              <div class="scene-card-footer">
+                <span>Public café venues</span>
+                <span>2–3 hrs suggested</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="scene-card">
+            <div class="scene-card-img-box">
+              <img src="/images/PHOTO03_heritage_courtyard_friends.png" alt="Heritage Pol Walks">
+              <span class="scene-card-tag">Heritage & Culture</span>
+            </div>
+            <div class="scene-card-body">
+              <div>
+                <h3>Old City Pols & Art Exhibitions</h3>
+                <p>Explore the carved wooden architecture of the walled city, visit art galleries at Kanoria Centre, or attend literary and cultural festivals together.</p>
+              </div>
+              <div class="scene-card-footer">
+                <span>Heritage precinct</span>
+                <span>Day or weekend walk</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="scene-card">
+            <div class="scene-card-img-box">
+              <img src="/images/PHOTO06_ahmedabad_food_street.png" alt="Food Street Explorations">
+              <span class="scene-card-tag">Food & Night Life</span>
+            </div>
+            <div class="scene-card-body">
+              <div>
+                <h3>Manek Chowk & Food Street Crawls</h3>
+                <p>Don't tackle Ahmedabad’s legendary food streets solo. Share gwalior dosas, maskabuns, and midnight ice creams with a fellow foodie.</p>
+              </div>
+              <div class="scene-card-footer">
+                <span>Popular public markets</span>
+                <span>Evening outing</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section-steps" id="how-it-works">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-label">Transparent Process</span>
+          <h2 class="section-title">How SaathScene Works</h2>
+          <p class="section-desc">
+            No algorithms, no fake instant bookings. Every match is coordinated by human operators who confirm mutual boundaries, timing, and venue safety before anything is finalized.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <h3>Share Your Plan</h3>
+            <p>Tell us what you want to do: Garba, café coffee, food walk, or art festival. Specify date, time, and preferred public venue in Ahmedabad.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <h3>Human Vetting</h3>
+            <p>Our intake coordinator reviews your enquiry and checks for an available, aligned companion from our verified 18+ pool.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <h3>Mutual Agreement</h3>
+            <p>Both parties review the plan, time commitment, fee/compensation, and code of conduct. Nothing is confirmed until both say yes.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">4</div>
+            <h3>Meet in Public</h3>
+            <p>Meet directly at the agreed public venue. Enjoy warm, respectful company with zero awkwardness and leave when planned.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Safety & Trust Section -->
+    <section class="section-safety" id="safety">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-label" style="color: var(--color-teal);">Safety & Mutual Respect</span>
+          <h2 class="section-title" style="color: var(--color-white);">Built on strict boundaries, not false promises.</h2>
+          <p class="section-desc" style="color: rgba(244, 237, 231, 0.8);">
+            We never fake government credentials or security badges. Instead, we uphold concrete operational rules that keep every outing safe, comfortable, and respectful.
+          </p>
+        </div>
+
+        <div class="safety-grid">
+          <div class="safety-card">
+            <div class="safety-card-icon" aria-hidden="true">&#128737;</div>
+            <h3>Strictly Public Venues</h3>
+            <p>All outings occur exclusively in public spaces: restaurants, cafés, festive grounds, markets, or registered event venues. Private homes, hotel rooms, or secluded spots are strictly forbidden.</p>
+          </div>
+
+          <div class="safety-card">
+            <div class="safety-card-icon" aria-hidden="true">&#128274;</div>
+            <h3>Privacy-Preserving Intake</h3>
+            <p>We do not publish member directories, and we never ask for government IDs, passwords, or banking details over initial forms. Personal data is never shared publicly.</p>
+          </div>
+
+          <div class="safety-card">
+            <div class="safety-card-icon" aria-hidden="true">&#9995;</div>
+            <h3>Right to Decline & Leave</h3>
+            <p>Both customer and companion have the unconditional right to decline a proposed booking or end an outing immediately if boundaries or respectful standards are crossed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Forms Section: Customer & Companion Tabs -->
+    <section class="section-forms" id="booking-form">
+      <div class="container">
+        <div class="section-head" style="margin-bottom: 2.5rem;">
+          <span class="section-label">Intake Portal</span>
+          <h2 class="section-title">Take the First Step</h2>
+          <p class="section-desc">
+            Whether you want a companion for an upcoming plan or want to apply to join our roster of respectful social companions—start here.
+          </p>
+        </div>
+
+        <div class="form-container-card">
+          <!-- Form Tabs -->
+          <div class="form-tabs" role="tablist">
+            <button class="form-tab-btn active" id="tabCustomerBtn" role="tab" aria-selected="true" aria-controls="customerPanel">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <polyline points="16 11 18 13 22 9"></polyline>
+              </svg>
+              Find a Companion (Enquiry)
+            </button>
+            <button class="form-tab-btn" id="tabCompanionBtn" role="tab" aria-selected="false" aria-controls="companionPanel">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+              Join as Companion (Adults 18+)
+            </button>
+          </div>
+
+          <!-- PANEL 1: Customer Booking Enquiry Form -->
+          <div class="form-panel active" id="customerPanel" role="tabpanel">
+            <div class="form-panel-intro">
+              <h3>Customer Companion Enquiry</h3>
+              <p>Submitting this form registers your enquiry with our Ahmedabad coordinator queue. It is not an instant confirmed booking. We review availability, public venue safety, and mutual vibes before confirming.</p>
+            </div>
+
+            <div class="form-error-box" id="customerErrorBox" role="alert"></div>
+
+            <form id="customerEnquiryForm" novalidate>
+              <div class="form-grid">
+                <div class="form-group">
+                  <label class="form-label" for="customerName">Your Preferred Name <span class="required">*</span></label>
+                  <input type="text" class="form-input" id="customerName" name="customerName" required placeholder="e.g. Yash or Priya">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="customerContact">WhatsApp Number or Email <span class="required">*</span></label>
+                  <input type="text" class="form-input" id="customerContact" name="customerContact" required placeholder="e.g. +91 98765 43210">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="customerActivity">Planned Social Activity <span class="required">*</span></label>
+                  <select class="form-select" id="customerActivity" name="customerActivity" required>
+                    <option value="">Select an activity...</option>
+                    <option value="Navratri Garba Night">Navratri Garba Night (Passes / Dancing / Spectating)</option>
+                    <option value="Café Conversation & Coffee">Café Conversation & Coffee</option>
+                    <option value="Heritage Walk / City Sightseeing">Heritage Walk / City Sightseeing</option>
+                    <option value="Food Market / Manek Chowk Crawl">Food Market / Manek Chowk Crawl</option>
+                    <option value="Public Concert / Cultural Exhibition">Public Concert / Cultural Exhibition</option>
+                    <option value="Movie / Cinema Outing">Movie / Cinema Outing</option>
+                    <option value="Other Public Outing">Other Public Outing (Details below)</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="customerDate">Preferred Date & Approx. Time</label>
+                  <input type="text" class="form-input" id="customerDate" name="customerDate" placeholder="e.g. This Saturday, 8:00 PM">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="customerLocation">Preferred Area / Public Venue in Ahmedabad</label>
+                  <input type="text" class="form-input" id="customerLocation" name="customerLocation" placeholder="e.g. Bodakdev, SBR, Vastrapur, Old City">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="customerDuration">Approximate Duration</label>
+                  <select class="form-select" id="customerDuration" name="customerDuration">
+                    <option value="1 to 2 hours">1 to 2 hours</option>
+                    <option value="2 to 3 hours">2 to 3 hours (Recommended)</option>
+                    <option value="3 to 4 hours">3 to 4 hours (e.g. Full Garba Night)</option>
+                    <option value="Flexible">Flexible / To be discussed</option>
+                  </select>
+                </div>
+
+                <div class="form-group full-width">
+                  <label class="form-label" for="customerNotes">Any specific preferences or vibe expectations?</label>
+                  <textarea class="form-textarea" id="customerNotes" name="customerNotes" placeholder="e.g. Prefer someone who knows traditional dodhiya steps, or looking for someone who loves specialty espresso."></textarea>
+                </div>
+
+                <div class="form-group full-width">
+                  <label class="form-checkbox-label">
+                    <input type="checkbox" id="customerAdultCheck" required>
+                    <span>I confirm I am an adult aged <strong>18 or older</strong>, and I understand SaathScene is strictly a <strong>non-sexual companionship service</strong> for public outings.</span>
+                  </label>
+                </div>
+
+                <div class="form-group full-width" style="margin-top: 0.5rem;">
+                  <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1rem;">
+                    Submit Companion Enquiry
+                  </button>
+                </div>
+              </div>
+            </form>
+
+            <!-- Backend Confirmed Feedback State -->
+            <div class="form-feedback-card" id="customerFeedbackCard">
+              <div class="feedback-icon">&#10004;</div>
+              <h3 class="feedback-title">Enquiry Successfully Registered</h3>
+              <p style="color: var(--color-slate); max-width: 600px; margin: 0 auto;">
+                Your enquiry has been received and stored in our coordinator queue. You can also send this exact reference directly to our coordinator via WhatsApp for faster matching:
+              </p>
+              <div class="feedback-details" id="customerFeedbackDetails"></div>
+              <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="#" class="btn btn-whatsapp" id="customerWhatsAppBtn" target="_blank" rel="noopener noreferrer">
+                  Send to WhatsApp Now &rarr;
+                </a>
+                <button type="button" class="btn btn-outline" onclick="location.reload();">Submit Another Enquiry</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PANEL 2: Companion Application Form (18+) -->
+          <div class="form-panel" id="companionPanel" role="tabpanel">
+            <div class="form-panel-intro">
+              <h3>Companion Application (Adults 18+)</h3>
+              <p>Interested in offering respectful, warm social companionship for public events in Ahmedabad? We welcome friendly, responsible adults. Applying is not automatic acceptance; onboarding requires safety verification and interview.</p>
+            </div>
+
+            <div class="form-error-box" id="companionErrorBox" role="alert"></div>
+
+            <form id="companionAppForm" novalidate>
+              <div class="form-grid">
+                <div class="form-group">
+                  <label class="form-label" for="companionName">Full Name / Preferred Name <span class="required">*</span></label>
+                  <input type="text" class="form-input" id="companionName" name="companionName" required placeholder="e.g. Ananya or Rohan">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="companionContact">WhatsApp Number / Phone <span class="required">*</span></label>
+                  <input type="text" class="form-input" id="companionContact" name="companionContact" required placeholder="e.g. +91 98765 43210">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="companionArea">Your Area in Ahmedabad <span class="required">*</span></label>
+                  <input type="text" class="form-input" id="companionArea" name="companionArea" required placeholder="e.g. Navrangpura, Satellite, Vastrapur, Maninagar">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="companionAvailability">Typical Availability</label>
+                  <select class="form-select" id="companionAvailability" name="companionAvailability">
+                    <option value="Evenings & Weekends">Evenings & Weekends</option>
+                    <option value="Navratri Nights Only">Navratri Nights Only (Seasonal)</option>
+                    <option value="Weekends Only">Weekends Only</option>
+                    <option value="Flexible Weekdays">Flexible Weekdays & Evenings</option>
+                  </select>
+                </div>
+
+                <div class="form-group full-width">
+                  <label class="form-label">Activities you are comfortable attending (Select all that apply):</label>
+                  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.6rem; margin-top: 0.35rem;">
+                    <label class="form-checkbox-label">
+                      <input type="checkbox" name="comfortActivities" value="Garba & Festivals" checked>
+                      <span>Garba & Festivals</span>
+                    </label>
+                    <label class="form-checkbox-label">
+                      <input type="checkbox" name="comfortActivities" value="Cafés & Coffee" checked>
+                      <span>Cafés & Coffee</span>
+                    </label>
+                    <label class="form-checkbox-label">
+                      <input type="checkbox" name="comfortActivities" value="Heritage & Art Events">
+                      <span>Heritage & Art Events</span>
+                    </label>
+                    <label class="form-checkbox-label">
+                      <input type="checkbox" name="comfortActivities" value="Food Street Crawls">
+                      <span>Food Street Crawls</span>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-group full-width">
+                  <label class="form-label" for="companionAbout">Brief Intro: What kind of social companion are you? <span class="required">*</span></label>
+                  <textarea class="form-textarea" id="companionAbout" name="companionAbout" required placeholder="Tell us about your interests, conversation style, and why you'd like to be a SaathScene companion."></textarea>
+                </div>
+
+                <div class="form-group full-width">
+                  <label class="form-checkbox-label">
+                    <input type="checkbox" id="companionAdultCheck" required>
+                    <span>I confirm I am aged <strong>18 or older</strong>, agree to adhere strictly to our <strong>zero-tolerance non-sexual conduct policy</strong>, and understand all meetings must occur in approved public spaces.</span>
+                  </label>
+                </div>
+
+                <div class="form-group full-width" style="margin-top: 0.5rem;">
+                  <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1rem;">
+                    Submit Companion Application
+                  </button>
+                </div>
+              </div>
+            </form>
+
+            <!-- Backend Confirmed Feedback State -->
+            <div class="form-feedback-card" id="companionFeedbackCard">
+              <div class="feedback-icon">&#10004;</div>
+              <h3 class="feedback-title">Application Successfully Logged</h3>
+              <p style="color: var(--color-slate); max-width: 600px; margin: 0 auto;">
+                Thank you! Your companion application has been saved to our coordinator review queue. Next, our coordinator reviews profile suitability and schedules an onboarding orientation. You can also introduce yourself directly:
+              </p>
+              <div class="feedback-details" id="companionFeedbackDetails"></div>
+              <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="#" class="btn btn-whatsapp" id="companionWhatsAppBtn" target="_blank" rel="noopener noreferrer">
+                  Connect on WhatsApp &rarr;
+                </a>
+                <button type="button" class="btn btn-outline" onclick="location.reload();">Submit Another Application</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions -->
+    <section class="section-faq" id="faq">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-label">Questions & Answers</span>
+          <h2 class="section-title">Everything you need to know.</h2>
+          <p class="section-desc">
+            Clear guidelines ensure zero misunderstandings. If your question isn't answered here, message us directly.
+          </p>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-item">
+            <button class="faq-question">
+              Is SaathScene a dating app or matrimonial service?
+              <span class="faq-arrow">&#9662;</span>
+            </button>
+            <div class="faq-answer">
+              <p>No. SaathScene is explicitly a <strong>non-sexual social companionship service</strong>. We provide friendly, vetted company for public outings—like Garba, cafés, art exhibitions, or food walks. It is not an escort service, romantic agency, or dating guarantee.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Who is eligible to use SaathScene?
+              <span class="faq-arrow">&#9662;</span>
+            </button>
+            <div class="faq-answer">
+              <p>All customers and companions must be adults aged <strong>18 or older</strong> residing in or visiting Ahmedabad, India. We do not permit underage intake under any circumstances.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              When is a booking officially confirmed?
+              <span class="faq-arrow">&#9662;</span>
+            </button>
+            <div class="faq-answer">
+              <p>A booking is <strong>only confirmed</strong> after our coordinator matches an available companion, and both parties explicitly agree on the activity, date/time, approved public venue, duration, price/compensation, and cancellation terms.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Where do companions and customers meet?
+              <span class="faq-arrow">&#9662;</span>
+            </button>
+            <div class="faq-answer">
+              <p>Strictly in <strong>well-lit public venues</strong>—such as registered Garba festival grounds, reputable cafés, restaurants, museum courtyards, or designated shopping streets. Private residences, hotel rooms, secluded cars, or closed spaces are strictly prohibited.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              How does pricing and companion compensation work?
+              <span class="faq-arrow">&#9662;</span>
+            </button>
+            <div class="faq-answer">
+              <p>Pricing is transparent and agreed upon upfront depending on the event duration and nature (e.g., ticket costs or entry passes). Activity expenses (e.g., café bills or festival passes) are agreed in advance prior to the outing.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              What happens if either party feels uncomfortable?
+              <span class="faq-arrow">&#9662;</span>
+            </button>
+            <div class="faq-answer">
+              <p>Both customer and companion retain the right to end any outing immediately if mutual boundaries, respectful speech, or conduct rules are violated. Any harassment or boundary breach results in permanent disqualification from the platform.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Floating WhatsApp Quick Button -->
+  <a href="#" class="floating-whatsapp whatsapp-dynamic-link" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp with SaathScene">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.456 5.711 1.457h.004c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span>Chat with SaathScene</span>
+  </a>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/brand/logo_horizontal_white.svg" alt="SaathScene Logo" class="footer-logo-img" onerror="this.onerror=null; this.src='/brand/logo_horizontal_white.png';">
+          <p class="footer-desc">
+            SaathScene connects adults aged 18+ in Ahmedabad with vetted companions for public social outings, festivals, and cultural events. Strictly non-sexual companionship with transparent mutual consent.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Ahmedabad Experiences</h4>
+          <ul class="footer-links">
+            <li><a href="#garba">Navratri Garba Companion</a></li>
+            <li><a href="#outings">Sindhu Bhavan Café Outings</a></li>
+            <li><a href="#outings">Old City Heritage Walks</a></li>
+            <li><a href="#outings">Manek Chowk Food Exploration</a></li>
+            <li><a href="#booking-form">Book an Outing Enquiry</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Platform & Legal</h4>
+          <ul class="footer-links">
+            <li><a href="/privacy.html">Privacy Notice</a></li>
+            <li><a href="/terms.html">Terms & Boundary Code</a></li>
+            <li><a href="#companion-form">Companion Onboarding (18+)</a></li>
+            <li><a href="#" class="instagram-dynamic-link" target="_blank" rel="noopener noreferrer">Instagram: @saathscene.ahmedabad</a></li>
+            <li><a href="#" class="email-dynamic-link">hello@saathscene.in</a></li>
+            <li><span style="color: rgba(244, 237, 231, 0.7); font-size: 0.85rem;">Desk / WhatsApp: <strong class="whatsapp-display-number">+91 90231 19260</strong> (Pending WhatsApp activation; fallback to email/IG)</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 SaathScene Ahmedabad. All rights reserved. Visuals shown are illustrative creative concepts.</p>
+        <p>Non-Sexual &bull; Adults 18+ Only &bull; Public Venues Only &bull; Ahmedabad, Gujarat</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+<rect width="900" height="260" fill="#0F3D35"/>
+<g transform="translate(38,57) scale(1.12)">
+<path d="M72 20 C48 2 25 13 24 32 C23 46 39 53 53 59 C69 66 80 74 75 89 C69 107 42 111 25 94"
+      fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 18 C46 6 68 12 73 29 C77 42 65 50 51 57 C36 64 25 73 29 88 C34 105 57 111 75 96"
+      fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34 35 C44 43 56 47 65 55 C74 63 73 73 63 80"
+      fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+</g>
+<text x="190" y="137" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="600" letter-spacing="-3" fill="#FFFFFF">SaathScene</text>
+<text x="194" y="184" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing="3" fill="#FFFFFF">EVENTS  •  GARBA  •  CAFES  •  OUTINGS</text>
+</svg>

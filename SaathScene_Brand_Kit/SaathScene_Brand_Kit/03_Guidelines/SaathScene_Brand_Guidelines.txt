@@ -1,0 +1,42 @@
+SAATHSCENE — STARTER BRAND KIT
+Version: 1.0 concept pack
+
+POSITIONING
+SaathScene is an Ahmedabad-first, non-sexual social companionship service for adults 18+, helping people find companions for Garba, events, cafes and social outings.
+
+BRAND CHARACTER
+Refined, calm, welcoming, contemporary, inclusive and human. Avoid dating-app clichés, generic people icons, overdone hearts, and unverified safety or trust claims.
+
+COLOUR PALETTE
+Deep Teal  #0F3D35  — primary brand colour
+Teal       #14B8A6  — accent
+Sand       #F4EDE7  — light background
+Slate      #6B7280  — secondary text
+Charcoal   #111827  — dark neutral
+White      #FFFFFF  — reverse logo / contrast
+
+TYPOGRAPHY
+Suggested free fonts: Plus Jakarta Sans or Inter for headings and body. Use consistent weights and generous spacing. The logo SVGs use Arial/Helvetica fallback text; for final production, convert wordmark text to outlines in a vector editor or replace with the chosen licensed font and check kerning.
+
+LOGO USAGE
+• Use horizontal logo for website headers, email signatures and wide placements.
+• Use stacked logo for posters and square compositions.
+• Use symbol-only mark for profile pictures, app icon and favicon.
+• Use white logo on Deep Teal backgrounds; use Deep Teal on Sand or white backgrounds.
+• Use monochrome versions when colour printing is unavailable.
+• Keep clear space around the mark roughly equal to the mark's inner width.
+• Avoid stretching, shadows, gradients, bevels or changing the spelling “SaathScene”.
+
+VOICE
+Warm and direct. Focus on shared plans, real-life outings and choice.
+Example: “Your next social scene starts here.”
+Avoid guarantees or claims that have not been substantiated.
+
+FREE TOOLS
+• Inkscape — edit SVG and export transparent PNG/PDF.
+• Canva Free — social templates and simple layouts.
+• Google Fonts — obtain Plus Jakarta Sans or Inter.
+• Photopea — quick raster edits in browser.
+
+IMPORTANT
+This is a starter concept kit, not a final trademark clearance or legal brand review. Availability of business names, domains and social handles has not been checked. Please review the abstract S symbol and wordmark before public launch; SVGs are editable concept artwork, and typography may render differently across systems.
